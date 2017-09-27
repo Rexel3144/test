@@ -1,14 +1,16 @@
 body{
     margin: 0;
     padding: 0;
-     background: linear-gradient(to top, #009999, #1d7373, #006363, #33cccc, #5ccccc) 100% 100% no-repeat;     background-size: 100%;
+    background: linear-gradient(to top, #009999, #1d7373, #006363, #33cccc, #5ccccc) 100% 100% no-repeat;     background-size: 100%;
     background-attachment: fixed;    
 }
 
 .up{
     color: black;
 }
-
+.more{
+    display: none;
+}
 nav ul {
     list-style: none;
     margin: 0;
@@ -148,4 +150,6 @@ img{
 	height:100px;
 }
 	
-	
+.clear{
+    clear: both;
+}
