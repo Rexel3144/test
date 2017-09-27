@@ -1,13 +1,12 @@
+
 body{
-	margin:0;
-	padding:0;
+    margin: 0;
+    padding: 0;
 }
-
-
-
 .wrap{
 	width:60%;
 	margin: 0 auto;
+    border: 1px solid #212121;
 }
 
 .clear{
@@ -17,21 +16,27 @@ body{
 .new{
     padding: 20px;
     height: auto;
+
 }
 
 .new a{
     color: #212121;
+    padding: 5px;
+    border: 1px dashed white;
 }
 
 .new a:hover{
     color: white;
+    padding: 5px;
     border: 2px solid white;
     background: black;
+
 }
 
 .new p{
     width: 100%;
     color: #212121;
+    font-style: italic;
 }
 
 .new img{
@@ -45,25 +50,19 @@ body{
 .photos{
     width: 100%;
     height: auto;
-    
+
 }
 
-.photo {
-    text-align: center;
-    
-    
-}
 
 .photo p{
     position: relative;
     margin: 0 auto;
-    text-align: center;
 }
 
 img{
     height: 480px;
     width: 680px;
-    padding: 10px;
+    padding: 10px 0px;
 }
 
 .header{
@@ -91,5 +90,4 @@ img{
 	background:red;
 	height:100px;
 }
-	
-	
+		
