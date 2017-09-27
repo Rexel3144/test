@@ -1,0 +1,151 @@
+body{
+    margin: 0;
+    padding: 0;
+     background: linear-gradient(to top, #009999, #1d7373, #006363, #33cccc, #5ccccc) 100% 100% no-repeat;     background-size: 100%;
+    background-attachment: fixed;    
+}
+
+.up{
+    color: black;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+nav li {
+    display: inline-block;
+    margin: 0 5px;
+    transition: all 0.3s;
+}
+nav a {
+    display: block;
+    color: #285064;
+    transition: all 0.3s;
+}
+
+.checked{
+    border-bottom: 3px solid red;
+}
+
+nav a:hover {
+    color: #12242d;
+}
+nav span {
+    display: block;
+}
+ 
+@media all and (min-width: 690px) {
+    nav li {
+        margin: 0;
+        transform: skewX(-10deg);
+    }
+    nav a {
+        padding: 10px 20px;
+        color: #fff;
+        background-color: #285064;
+    }
+    nav a:hover {
+        color: #fff;
+        background-color: #12242d;
+    }
+    nav span {
+        transform: skewX(10deg);
+    }
+}
+
+.wrap{
+	width:60%;
+	margin: 0 auto;
+    border: 1px solid #212121;
+}
+
+.clear{
+	clear:both;
+}
+
+.new{
+    padding: 20px;
+    height: auto;
+    
+}
+
+.new a{
+    color: #212121;
+    padding: 5px;
+    border: 1px dashed white;
+}
+
+.new a:hover{
+    color: white;
+    padding: 5px;
+    border: 2px solid white;
+    background: black;
+}
+
+.new p{
+    width: 100%;
+    color: #212121;
+    font-style: italic; 
+}
+
+.new img{
+    width: 600px;
+    height: 400px;
+    margin: 20px;
+    border: 1px solid #212121;
+    border-radius: 10px;
+}
+
+.photos{
+    width: 100%;
+    height: auto;
+    
+}
+
+.photo img{
+    padding: 0;
+    
+}
+
+.photo p{
+    position: relative;
+    margin: 0 auto;
+    
+}
+
+img{
+    height: 480px;
+    width: 680px;
+    padding: 10px;
+}
+
+.header{
+	background: red;
+	height:100px;
+}
+
+.side{
+	float:left;
+	height:400px;
+	width: 40%;
+	text-align:center;
+	background: green;
+}
+
+.content{
+	float:right;
+	height:400px;
+	width: 60%;
+	text-align:center;
+	background:yellow;
+}
+
+.footer{
+	background:red;
+	height:100px;
+}
+	
+	
